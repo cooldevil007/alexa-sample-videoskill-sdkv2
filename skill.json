@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Video Skill demo using SDK V2",
+          "examplePhrases": [
+            "Alexa open video stream",
+            "Alexa ask video stream to play",
+            "Alexa tell video stream to play video"
+          ],
+          "keywords": [
+            "Video",
+            "Video skill",
+            "SDK V2"
+          ],
+          "name": "display-demo",
+          "description": "Video Skill demo using SDK V2"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces":[
+          {
+            "type": "VIDEO_APP"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance":{
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false,
+      "locales":{
+        "en-US":{
+          "termsOfUseUrl": "https://www.google.com",
+          "privacyPolicyUrl": "https://www.google.com"
+        }
+      }
+    }
+  }
+}
